@@ -1,0 +1,1 @@
+/usr/sbin/curl -fsL --retry 3 "https://raw.githubusercontent.com/thisisprogramming/asus-merlin/main/precisionMerlin.sh" -o /jffs/scripts/precisionMerlin && chmod 0755 /jffs/scripts/precisionMerlin && /jffs/scripts/precisionMerlin install
