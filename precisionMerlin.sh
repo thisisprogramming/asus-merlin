@@ -21,7 +21,7 @@ readonly script_config="$script_dir/$script_name.conf"
 readonly script_md5="$script_dir/$script_name.md5"
 readonly script_version="1.2.4"
 readonly script_branch="main"
-readonly script_repo="https://github.com/thisisprogramming/asus-merlin/$script_name/$script_branch"
+readonly script_repo="https://raw.githubusercontent.com/thisisprogramming/asus-merlin/$script_branch"
 
 readonly log_file="$script_dir/$script_name.log"
 readonly log_size=5120 # 5MB in kilobytes
